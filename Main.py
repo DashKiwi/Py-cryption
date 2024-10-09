@@ -1,6 +1,6 @@
 import random
 
-letters = list(map(chr, range(33, 123)))
+letters = list(map(chr, range(32, 123)))
 
 def generate_shift(seed):
     random.seed(seed)
